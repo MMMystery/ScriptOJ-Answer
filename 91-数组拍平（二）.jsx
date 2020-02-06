@@ -6,5 +6,3 @@ function *flatten2 (arr) {
     Array.isArray(item) ? yield *flatten2(item) : yield item
   }
 }
-
-
